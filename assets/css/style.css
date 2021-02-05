@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 .navbar-nav a{
 font-family: 'Cuprum', sans-serif;
 font-size: 25px;
@@ -28,7 +27,7 @@ letter-spacing: 2px;
     position: relative;
 }
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("..images/yoga.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/yoga-hero.jpg");
   height: 650px;
   background-position: center;
   background-repeat: no-repeat;
