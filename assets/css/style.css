@@ -61,7 +61,11 @@ letter-spacing: 2px;
   color: white;
 }
 /* body content */
-#body-header{
+#classes h1{
     text-align: center;
     color: #32a852;
 }
+#classes h2{
+    color: #32a852;
+}
+
