@@ -1,4 +1,4 @@
-/* Navbar & Hero img */
+/* Navbar: Credit / Bootstrap navbar edited with help of Youtube vid stated in README */
 .navbar-nav a{
 font-family: 'Cuprum', sans-serif;
 font-size: 25px;
@@ -21,6 +21,7 @@ letter-spacing: 2px;
    font-size: 25px;
    margin: 5px;
 }
+/*Hero img / Credit: W3Schools code edited to suit needs */
 #hero-outer{
     height: 650px;
     width: 100%;
@@ -60,17 +61,158 @@ letter-spacing: 2px;
   background-color: #32a852;
   color: white;
 }
-/* body content */
-#classes h1{
+
+/* Classes / W3Schools code edited to suit needs */
+#body-header{
     text-align: center;
     color: #32a852;
 }
-#classes h2{
+img{
+    display: block;
+    margin: 0 auto;
+}
+.container-fluid h2{
+    text-align: center;
     color: #32a852;
 }
-.media-body{
-    font-size: 18px;
+
+/* Schedule / W3schools table code edited to suit needs of site */
+.table tr{
+    color: #fff;
 }
+.timetable h2 p{
+    text-align: center;
+    color: #32a852;
+}
+
+/* Team / Credit: Youtube - Arjun Khara (video link in README) */
+.team{
+    text-align: center;
+    color: #32a852;
+}
+.holdingcontainer{
+      max-width: 100%;
+      display: flex;
+      padding: 50px;
+      box-sizing: border-box;
+      flex-direction: row;
+    }
+
+    .internalcontainerL{
+      flex: 1;
+      padding: 30px;
+      font-size: 18px;
+      font-family: 'Roboto', sans-serif;
+      margin: 3px;
+    }
+    .internalcontainerL h1{
+        text-align: center;
+        color:#32a852;
+    }
+
+    .internalcontainerM{
+      flex: 1;
+      padding: 30px;
+      font-size: 18px;
+      font-family: 'Roboto', sans-serif;
+      margin: 3px;
+    }
+    .internalcontainerM h1{
+        text-align: center;
+        color:#32a852;
+    }
+
+    .internalcontainerR{
+      flex: 1;
+      padding: 30px;
+      font-size: 18px;
+      font-family: 'Roboto', sans-serif;
+      margin: 3px;
+    }
+    .internalcontainerR h1{
+        text-align: center;
+        color:#32a852;
+    }
+    .yoga-images{
+        width:100%;
+        height: auto
+    }
+
+    @media screen and (max-width: 768px){
+      .holdingcontainer{
+        flex-direction: column-reverse;
+      }
+    }
+    /* Contact/Book forms / Credit: Mix of W3Schools & bootstrap*/
+    label[for=user-email]{
+        margin-right: 39px;
+    }
+     label[for=message]{
+        margin-left: 80px;
+        text-align: center;
+    }
+    input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 14px;
+  resize: vertical;
+}
+input[type=email], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 14px;
+  resize: vertical;
+}
+
+input[type=submit]{
+  background-color: white;
+  color: #32a852;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 80px;
+}
+.contact-us{
+        border-radius: 5px;
+  background-color: #32a852;
+  padding: 20px;
+  width: 100%;
+  
+    }
+    #contact-header{
+        text-align: center;
+        color: #32a852;
+    }
+    #book-header{
+        text-align: center;
+        color: #32a852;
+    }
+    label[for=days] {
+    margin-right: 0px;
+    color: #fff;
+}
+label[for=times] {
+    margin-right: 0px;
+    color: #fff;
+}
+.form-control{
+    width: 86%;
+}
+@media(min-width: 992px){
+    .form-group{
+        margin-left: 84px;
+    }
+}
+
 /* footer */
 footer{
     background: #32a852;
