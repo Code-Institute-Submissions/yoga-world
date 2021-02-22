@@ -62,6 +62,7 @@ letter-spacing: 2px;
   color: white;
 }
 
+
 /* Classes / W3Schools code edited to suit needs */
 #body-header{
     text-align: center;
@@ -76,6 +77,7 @@ img{
     color: #32a852;
 }
 
+
 /* Schedule / W3schools table code edited to suit needs of site */
 .table tr{
     color: #fff;
@@ -84,6 +86,7 @@ img{
     text-align: center;
     color: #32a852;
 }
+
 
 /* Team / Credit: Youtube - Arjun Khara (video link in README) */
 .team{
@@ -143,6 +146,8 @@ img{
         flex-direction: column-reverse;
       }
     }
+
+
     /* Contact/Book forms / Credit: Mix of W3Schools & bootstrap*/
     label[for=user-email]{
         margin-right: 39px;
@@ -212,6 +217,7 @@ label[for=times] {
         margin-left: 84px;
     }
 }
+
 
 /* footer */
 footer{
