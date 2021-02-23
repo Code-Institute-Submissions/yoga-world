@@ -1,240 +1,278 @@
 /* Navbar: Credit / Bootstrap navbar edited with help of Youtube vid stated in README */
-.navbar-nav a{
-font-family: 'Cuprum', sans-serif;
-font-size: 25px;
-color: #fff !important;
-letter-spacing: 2px;
-margin: 5px;
+.navbar-nav a {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 25px;
+    color: #fff !important;
+    letter-spacing: 2px;
+    margin: 5px;
 
 }
-.navbar-light .navbar-brand{
-color: #fff !important;
-font-size: 35px;
-font-weight:bold ;
-font-family: 'Acme', sans-serif;
-letter-spacing: 2px;
+
+.navbar-light .navbar-brand {
+    color: #fff !important;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 2px;
 }
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show, .nav-link{
-   color: #fff !important; 
-   font-family: 'Cuprum', sans-serif;
-   font-size: 25px;
-   margin: 5px;
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show,
+.nav-link {
+    color: #fff !important;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 25px;
+    margin: 5px;
 }
+
 /*Hero img / Credit: W3Schools code edited to suit needs */
-#hero-outer{
+#hero-outer {
     height: 650px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
+
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/yoga-hero.jpg");
-  height: 650px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/yoga-hero.jpg");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
 }
 
 .hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: #32a852;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #32a852;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
 }
 
 .hero-text button:hover {
-  background-color: #32a852;
-  color: white;
+    background-color: #32a852;
+    color: white;
 }
 
 
 /* Classes / W3Schools code edited to suit needs */
-#body-header{
+#body-header {
     text-align: center;
     color: #32a852;
+    margin-top: 20px;
+
 }
-img{
+
+img {
     display: block;
     margin: 0 auto;
 }
-.container-fluid h2{
+
+.container-fluid h2 {
     text-align: center;
     color: #32a852;
 }
 
 
 /* Schedule / W3schools table code edited to suit needs of site */
-.table tr{
+.table tr {
     color: #fff;
 }
-.timetable h2 p{
+
+.timetable h2 p {
     text-align: center;
     color: #32a852;
 }
 
 
 /* Team / Credit: Youtube - Arjun Khara (video link in README) */
-.team{
+.team {
     text-align: center;
     color: #32a852;
 }
-.holdingcontainer{
-      max-width: 100%;
-      display: flex;
-      padding: 50px;
-      box-sizing: border-box;
-      flex-direction: row;
-    }
 
-    .internalcontainerL{
-      flex: 1;
-      padding: 30px;
-      font-size: 18px;
-      font-family: 'Roboto', sans-serif;
-      margin: 3px;
-    }
-    .internalcontainerL h1{
-        text-align: center;
-        color:#32a852;
-    }
+.holdingcontainer {
+    max-width: 100%;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
 
-    .internalcontainerM{
-      flex: 1;
-      padding: 30px;
-      font-size: 18px;
-      font-family: 'Roboto', sans-serif;
-      margin: 3px;
-    }
-    .internalcontainerM h1{
-        text-align: center;
-        color:#32a852;
-    }
+.internalcontainerL {
+    flex: 1;
+    padding: 30px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin: 3px;
+}
 
-    .internalcontainerR{
-      flex: 1;
-      padding: 30px;
-      font-size: 18px;
-      font-family: 'Roboto', sans-serif;
-      margin: 3px;
-    }
-    .internalcontainerR h1{
-        text-align: center;
-        color:#32a852;
-    }
-    .yoga-images{
-        width:100%;
-        height: auto
-    }
+.internalcontainerL h1 {
+    text-align: center;
+    color: #32a852;
+}
 
-    @media screen and (max-width: 768px){
-      .holdingcontainer{
+.internalcontainerM {
+    flex: 1;
+    padding: 30px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin: 3px;
+}
+
+.internalcontainerM h1 {
+    text-align: center;
+    color: #32a852;
+}
+
+.internalcontainerR {
+    flex: 1;
+    padding: 30px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin: 3px;
+}
+
+.internalcontainerR h1 {
+    text-align: center;
+    color: #32a852;
+}
+
+.yoga-images {
+    width: 100%;
+    height: auto
+}
+
+@media screen and (max-width: 768px) {
+    .holdingcontainer {
         flex-direction: column-reverse;
-      }
     }
-
-
-    /* Contact/Book forms / Credit: Mix of W3Schools & bootstrap*/
-    label[for=user-email]{
-        margin-right: 39px;
-    }
-     label[for=message]{
-        margin-left: 80px;
-        text-align: center;
-    }
-    input[type=text], select, textarea {
-  width: 80%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 14px;
-  resize: vertical;
-}
-input[type=email], select, textarea {
-  width: 80%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 14px;
-  resize: vertical;
 }
 
-input[type=submit]{
-  background-color: white;
-  color: #32a852;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-left: 80px;
+
+/* Contact/Book forms / Credit: Mix of W3Schools & bootstrap*/
+label[for=user-email] {
+    margin-right: 39px;
 }
-.contact-us{
-        border-radius: 5px;
-  background-color: #32a852;
-  padding: 20px;
-  width: 100%;
-  
-    }
-    #contact-header{
-        text-align: center;
-        color: #32a852;
-    }
-    #book-header{
-        text-align: center;
-        color: #32a852;
-    }
-    label[for=days] {
+
+label[for=message] {
+    margin-left: 80px;
+    text-align: center;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    resize: vertical;
+}
+
+input[type=email],
+select,
+textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: #32a852;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+.contact-us {
+    border-radius: 5px;
+    background-color: #32a852;
+    padding: 20px;
+    width: 100%;
+
+}
+#contact-us-wrapper{
+    margin-bottom: 40px;
+}
+
+#contact-header {
+    text-align: center;
+    color: #32a852;
+}
+
+#book-header {
+    text-align: center;
+    color: #32a852;
+}
+
+label[for=days] {
     margin-right: 0px;
     color: #fff;
 }
+
 label[for=times] {
     margin-right: 0px;
     color: #fff;
 }
-.form-control{
+
+.form-control {
     width: 86%;
 }
-@media(min-width: 992px){
-    .form-group{
+
+@media(min-width: 992px) {
+    .form-group {
         margin-left: 84px;
     }
 }
 
 
 /* footer */
-footer{
+footer {
     background: #32a852;
     padding: 30px;
 }
-.header-address{
+
+.header-address {
     color: #fff;
     padding-top: 15px;
 }
-.socials{
+
+.socials {
     list-style-type: none;
 }
-.socials li{
+
+.socials li {
     display: inline;
 }
-.socials li i{
+
+.socials li i {
     color: #fff;
     height: 32px;
     width: 32px;
@@ -242,9 +280,11 @@ footer{
     padding-top: 15px;
     margin: 15px;
 }
-.footer-link{
+
+.footer-link {
     list-style-type: none;
 }
-.footer-link li a{
+
+.footer-link li a {
     color: #fff;
 }
