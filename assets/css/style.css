@@ -1,13 +1,4 @@
 /* Navbar: Credit / Bootstrap navbar edited with help of Youtube vid stated in README */
-.navbar-nav a {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 25px;
-    color: #fff !important;
-    letter-spacing: 2px;
-    margin: 5px;
-
-}
-
 .navbar-light .navbar-brand {
     color: #fff !important;
     font-size: 35px;
@@ -15,11 +6,6 @@
     font-family: 'Acme', sans-serif;
     letter-spacing: 2px;
 }
-
-.navbar-light .navbar-nav .active>.nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show,
 .nav-link {
     color: #fff !important;
     font-family: 'Cuprum', sans-serif;
@@ -62,6 +48,7 @@
     background-color: #ddd;
     text-align: center;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .hero-text button:hover {
@@ -166,12 +153,16 @@ img {
 
 
 /* Contact/Book forms / Credit: Mix of W3Schools & bootstrap*/
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
 label[for=user-email] {
-    margin-right: 39px;
+    margin-right: 52px;
 }
 
 label[for=message] {
-    margin-left: 80px;
+    margin-left: 100px;
     text-align: center;
 }
 
@@ -186,6 +177,8 @@ textarea {
     margin-top: 6px;
     margin-bottom: 14px;
     resize: vertical;
+    font-weight: bold;
+    
 }
 
 input[type=email],
@@ -199,6 +192,7 @@ textarea {
     margin-top: 6px;
     margin-bottom: 14px;
     resize: vertical;
+    font-weight: bold;
 }
 
 input[type=submit] {
@@ -208,7 +202,8 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 80px;
+    margin-left: 100px;
+    font-weight: bold;
 }
 
 .contact-us {
@@ -226,32 +221,6 @@ input[type=submit] {
     text-align: center;
     color: #32a852;
 }
-
-#book-header {
-    text-align: center;
-    color: #32a852;
-}
-
-label[for=days] {
-    margin-right: 0px;
-    color: #fff;
-}
-
-label[for=times] {
-    margin-right: 0px;
-    color: #fff;
-}
-
-.form-control {
-    width: 86%;
-}
-
-@media(min-width: 992px) {
-    .form-group {
-        margin-left: 84px;
-    }
-}
-
 
 /* footer */
 footer {
