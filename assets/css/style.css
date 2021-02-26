@@ -22,7 +22,7 @@
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/yoga-background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../images/yoga-background.jpg");
     height: 650px;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,12 +39,12 @@
     color: #fff;
 }
 
-.hero-text button {
+.hero-text a {
     border: none;
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
-    color: #32a852;
+    color: #317d46;
     background-color: #ddd;
     text-align: center;
     cursor: pointer;
@@ -52,7 +52,7 @@
 }
 
 .hero-text button:hover {
-    background-color: #32a852;
+    background-color: #317d46;
     color: white;
 }
 
@@ -60,7 +60,7 @@
 /* Classes / W3Schools code edited to suit needs */
 #body-header {
     text-align: center;
-    color: #32a852;
+    color: #317d46;
     margin-top: 20px;
 
 }
@@ -72,7 +72,7 @@ img {
 
 .container-fluid h2 {
     text-align: center;
-    color: #32a852;
+    color: #317d46;
 }
 
 
@@ -83,14 +83,14 @@ img {
 
 .timetable h2 p {
     text-align: center;
-    color: #32a852;
+    color: #317d46;
 }
 
 
 /* Team / Credit: Youtube - Arjun Khara (video link in README) */
 .team {
     text-align: center;
-    color: #32a852;
+    color: #317d46;
 }
 
 .holdingcontainer {
@@ -111,7 +111,7 @@ img {
 
 .internalcontainerL h1 {
     text-align: center;
-    color: #32a852;
+    color: #317d46;
 }
 
 .internalcontainerM {
@@ -124,7 +124,7 @@ img {
 
 .internalcontainerM h1 {
     text-align: center;
-    color: #32a852;
+    color: #317d46;
 }
 
 .internalcontainerR {
@@ -137,7 +137,7 @@ img {
 
 .internalcontainerR h1 {
     text-align: center;
-    color: #32a852;
+    color: #317d46;
 }
 
 .yoga-images {
@@ -197,7 +197,7 @@ textarea {
 
 input[type=submit] {
     background-color: white;
-    color: #32a852;
+    color: #317d46;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -208,7 +208,7 @@ input[type=submit] {
 
 .contact-us {
     border-radius: 5px;
-    background-color: #32a852;
+    background-color: #317d46;
     padding: 20px;
     width: 100%;
 
@@ -219,12 +219,12 @@ input[type=submit] {
 
 #contact-header {
     text-align: center;
-    color: #32a852;
+    color: #317d46;
 }
 
 /* footer */
 footer {
-    background: #32a852;
+    background: #317d46;
     padding: 30px;
 }
 
