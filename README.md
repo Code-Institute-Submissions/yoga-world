@@ -5,6 +5,20 @@ With so many options in the fitness and welbeing sector these days its hard to s
 own personal ideas this was all about bringing it back to basics and what yoga stands for in general. The idea was to create 
 a simplistic but informative website that lets the user decide for themselves. We did not want to push information at them 
 but instead give them a simple honest view of the yoga lifestyle and what the studio can provide.
+
+## Table of Contents
+> - [Overview](#overview)
+> - [Description](#description)
+> - [Wireframes](#wireframes)
+> - [Strategy](#strategy)
+> - [ User Stories](#user-stories)
+> - [Structure](#structure)
+> - [Surface](#surface)
+> - [Features](#features)
+> - [Technologies Used](#technologies-used)
+> - [Testing](#testing)
+> - [Credits](#credits)
+
 ## Description
 This website is for a hypothetical yoga studio which aims to provide all the information about the services to new or existing participants.
 It will do this by provinding informationon on the types of classes that are held, the 
@@ -88,6 +102,7 @@ In this site Acme and Cuprum are used to immediately catch the users eye in the 
  * As this is a hypothetical site the social links dont send the user to the specific site socials, this would be a feature to implement should it become real.
 
 ## Technologies Used
+
 ### Lnaguages
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/CSS)
@@ -230,7 +245,7 @@ friend they wil have clear and direct access to do so.
 * Sarah Murphy image: (https://unsplash.com/photos/t1NEMSm1rgI) by (https://unsplash.com/@dane_aw)
 * Mark Joyce image: (https://www.pexels.com/photo/man-in-black-crew-neck-t-shirt-standing-inside-boxing-ring-3912516/) by (https://www.pexels.com/@thisisengineering)
 
-### Acknowledgments 
+## Acknowledgments 
 * I recieved inspiration for this project from the Code Institute Love Running exercise.
 * I would like to give a huge thanks to my mentor Nishant Kumar for his guidance and resources.
 * I would like to thank the slack community for sharing their problems and solutions as well as Tutor Support.
