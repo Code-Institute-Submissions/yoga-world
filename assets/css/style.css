@@ -12,7 +12,6 @@
     font-size: 25px;
     margin: 5px;
 }
-
 /*Hero img / Credit: W3Schools code edited to suit needs */
 #hero-outer {
     height: 650px;
@@ -20,7 +19,6 @@
     overflow: hidden;
     position: relative;
 }
-
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../images/yoga-background.jpg");
     height: 650px;
@@ -29,7 +27,6 @@
     background-size: cover;
     position: relative;
 }
-
 .hero-text {
     text-align: center;
     position: absolute;
@@ -38,61 +35,49 @@
     transform: translate(-50%, -50%);
     color: #fff;
 }
-
 .hero-text a {
     border: none;
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
     color: #317d46;
-    background-color: #ddd;
+    background-color: #fff;
     text-align: center;
     cursor: pointer;
     font-weight: bold;
 }
-
 .hero-text button:hover {
     background-color: #317d46;
     color: white;
 }
-
-
 /* Classes / W3Schools code edited to suit needs */
 #body-header {
     text-align: center;
     color: #317d46;
     margin-top: 20px;
-
 }
 
 img {
     display: block;
     margin: 0 auto;
 }
-
 .container-fluid h2 {
     text-align: center;
     color: #317d46;
 }
-
-
 /* Schedule / W3schools table code edited to suit needs of site */
 .table tr {
     color: #fff;
 }
-
 .timetable h2 p {
     text-align: center;
     color: #317d46;
 }
-
-
 /* Team / Credit: Youtube - Arjun Khara (video link in README) */
 .team {
     text-align: center;
     color: #317d46;
 }
-
 .holdingcontainer {
     max-width: 100%;
     display: flex;
@@ -100,7 +85,6 @@ img {
     box-sizing: border-box;
     flex-direction: row;
 }
-
 .internalcontainerL {
     flex: 1;
     padding: 30px;
@@ -108,12 +92,10 @@ img {
     font-family: 'Roboto', sans-serif;
     margin: 3px;
 }
-
 .internalcontainerL h1 {
     text-align: center;
     color: #317d46;
 }
-
 .internalcontainerM {
     flex: 1;
     padding: 30px;
@@ -121,12 +103,10 @@ img {
     font-family: 'Roboto', sans-serif;
     margin: 3px;
 }
-
 .internalcontainerM h1 {
     text-align: center;
     color: #317d46;
 }
-
 .internalcontainerR {
     flex: 1;
     padding: 30px;
@@ -134,24 +114,19 @@ img {
     font-family: 'Roboto', sans-serif;
     margin: 3px;
 }
-
 .internalcontainerR h1 {
     text-align: center;
     color: #317d46;
 }
-
 .yoga-images {
     width: 100%;
     height: auto
 }
-
 @media screen and (max-width: 768px) {
     .holdingcontainer {
         flex-direction: column-reverse;
     }
 }
-
-
 /* Contact/Book forms / Credit: Mix of W3Schools & bootstrap*/
 label{
     font-size: 20px;
@@ -180,7 +155,6 @@ textarea {
     font-weight: bold;
     
 }
-
 input[type=email],
 select,
 textarea {
@@ -194,7 +168,6 @@ textarea {
     resize: vertical;
     font-weight: bold;
 }
-
 input[type=submit] {
     background-color: white;
     color: #317d46;
@@ -205,42 +178,34 @@ input[type=submit] {
     margin-left: 100px;
     font-weight: bold;
 }
-
 .contact-us {
     border-radius: 5px;
     background-color: #317d46;
     padding: 20px;
     width: 100%;
-
 }
 #contact-us-wrapper{
     margin-bottom: 40px;
 }
-
 #contact-header {
     text-align: center;
     color: #317d46;
 }
-
 /* footer */
 footer {
     background: #317d46;
     padding: 30px;
 }
-
 .header-address {
     color: #fff;
     padding-top: 15px;
 }
-
 .socials {
     list-style-type: none;
 }
-
 .socials li {
     display: inline;
 }
-
 .socials li i {
     color: #fff;
     height: 32px;
@@ -249,11 +214,9 @@ footer {
     padding-top: 15px;
     margin: 15px;
 }
-
 .footer-link {
     list-style-type: none;
 }
-
 .footer-link li a {
     color: #fff;
 }
