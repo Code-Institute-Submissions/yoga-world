@@ -31,11 +31,11 @@ or why not just bring the whole family including the kids.
 * As a new user, I would like a way to contact the studio should I have a query.
 * As a new user, I would like to see the studio address clearly stated.
 * As a new user, I would like to find the studios social media.
-### Returning User
+#### Returning User
 * As a returning user, I would like the site to stay consistent in regards layout. 
 * As a returning user, I would like to know the schedule will be updated if there is any changes.
 * As a returning user, I would like a direct link to access social media links fast and easy.
-### Structure
+## Structure
 The site is seperated with 4 different pages. The home page, schedule page, our team page and contact page.
 The nav and footer will provide links to each page clearly labeled so theres no confusion on where to find the
 information thats wanted. The address will be in the nav and footer along with the social media links in the footer, both will stay consistent
@@ -43,10 +43,10 @@ throughout the site. All pages will have informative info along with inviting co
 ## Surface
 #### Images
 Each image was selected to give an honest representation of what the user can expect should they visit the studio. 
-Including images of the instructors is to help first time users more comfotable before attending having seen an image 
+Including images of the instructors to help first time users become more comfotable before attending, having seen an image 
 and a brief piece of info about them.
 #### Colurs
-The maine colour in this website is green (#317d46). This was chosen to give a relaxing earthly feel which encompasses yoga
+The main colour in this website is green (#317d46). This was chosen to give a relaxing earthly feel which encompasses yoga
 and tries to immediately put the user at ease.
 #### Typography
 In this site Acme and Cuprum are used to immediately catch the users eye in the site title and nav pages.
@@ -82,25 +82,33 @@ In this site Acme and Cuprum are used to immediately catch the users eye in the 
  
  #### Features left to implement
  * You may notice in my wireframe and even in git commits that a book form was added. As I went to create 
- this form I realised it was out of the scope of the course at this point, so this would be a future feature left to implement.
- * As well as the book form the functionality of the send button for the forms would also be needed to implement.
+ this form I realised it was out of the scope of the course at this point, so this would be a future feature left to implement. It would allow
+ the user to pick a time and date to book a session using the info they have from the schedule page.
+ * As well as the book form, the functionality of the send button for the contact form would also be needed to implement.
  * As this is a hypothetical site the social links dont send the user to the specific site socials, this would be a feature to implement should it become real.
 
-### Technologies Used
-#### Lnaguages
-* HTML
-* CSS
-#### Framworks, Libararies & Tools
+## Technologies Used
+### Lnaguages
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+### Framworks, Libararies & Tools
 * [GitHub](http://github.com)
 * [Balsamiq](http://balsamiq.com)
 * [Unsplash](https://unsplash.com/)
 * [FontAwesome](https://fontawesome.com/)
 * [GitPod](https://www.gitpod.io/)
 * [Bootstrap](https://getbootstrap.com/)
-* [Pexels](https://pexels.com/)
+* [Pexels](https://pexels.com/) 
 * [Google Fonts](https://fonts.google.com/)
+* [W3schools](https://www.w3schools.com/)
+* [YouTube](https://www.youtube.com/)
+* [AmIResponsive](http://ami.responsivedesign.is/)
 
 ## Testing 
+* Contact form was tested, when send button is clicked without all text fields filled in 
+pop up notifaction of "Please fill in this field" shown.
+* All links (external & internal) were checked so user is brought to desired location.
+
 ### Lighthouse Testing 
 * Home Page: Desktop
 ![Alt text](assets/Testing-Images/IndexDesktopL.png)
@@ -144,8 +152,8 @@ In this site Acme and Cuprum are used to immediately catch the users eye in the 
 * No issues reported
 ![Alt text](assets/Testing-Images/csstesting.png)
 
-#### User Story Testing
-##### New Users
+## User Story Testing
+### New Users
 " As a new user, I would like to have a clearly labeled and easily accessible way to find the info I need."
 > * The user will immediately see the navbar when they enter the site, this provides all they topics they could be interested in
 and gives the a clear pathway to find any info they are seeking.
@@ -161,7 +169,7 @@ for this information its already clearly stated at the top and bottom of the pag
 " As a new user, I would like to find the studios social media."
 > * This is done by providing the links to all socials used by the stuido in the footer across all pages in the form of icons.
 
-##### Returning Users
+### Returning Users
 "As a returning user, I would like the site to stay consistent in regards layout."
 > * This is done by making the site respnsive across all screen sizes to avoid any major layout changes.
 
@@ -187,9 +195,24 @@ friend they wil have clear and direct access to do so.
 * If you wish to clone this repository please follow these steps [here!](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 * If you wish to fork this repository please follow these steps [here!](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
 * At the top of this repositoryyou can also click the green "Code" button and download the zip.
+
 ## Credits
-### Media
+
+### Content
 * All filler text was made up by me as hypotheticals for the website.
+
+### Code Snippets
+* Code for the team section with instructors was taken and edited to suit the needs of site from (https://www.youtube.com/watch?v=gCPWMXC1ZDc) including the css styling elements.
+
+* The navbar code was taken from [Bootstrap](https://getbootstrap.com/) and edited with the help of [Divinector-YouTube](https://www.youtube.com/watch?v=sbf3uv0reTc&t=475s)
+
+* [System 22 I.T. Solutions-YouTube](https://www.youtube.com/watch?v=PwN0KVIrbA8&t=851s) was used to help with the creation of the footer.
+
+#### [W3schools](https://www.w3schools.com/) code was used then edited for:
+* Hero Image in Home page.
+* "Our Classes" body section in home page.
+* Table in schedule page.
+* Contact form in contact page.
 
 ## Images
 #### Home page
@@ -205,15 +228,12 @@ friend they wil have clear and direct access to do so.
 * John Deen image: (https://www.pexels.com/photo/man-in-black-crew-neck-t-shirt-and-black-pants-sitting-on-brown-wooden-floor-4327046/) by (https://www.pexels.com/@cottonbro)
 * Tom Breen image: (https://www.pexels.com/photo/man-in-red-button-up-shirt-3777943/) by (https://www.pexels.com/@olly)
 * Sarah Murphy image: (https://unsplash.com/photos/t1NEMSm1rgI) by (https://unsplash.com/@dane_aw)
-* Mark Joyce image: (https://unsplash.com/photos/hyfRxVq9OUk) by (https://unsplash.com/@yogagenapp)
-
-### Code Snippets
-* Code for the team section with instructors was taken from (https://www.youtube.com/watch?v=gCPWMXC1ZDc) including the css styling elements.
-* The navbar code was taken from [Bootstrap](https://getbootstrap.com/) and edited with the help of [Divinector-YouTube](https://www.youtube.com/watch?v=sbf3uv0reTc&t=475s)
-* [System 22 I.T. Solutions-YouTube](https://www.youtube.com/watch?v=PwN0KVIrbA8&t=851s) was used to help with the creation of the footer.
+* Mark Joyce image: (https://www.pexels.com/photo/man-in-black-crew-neck-t-shirt-standing-inside-boxing-ring-3912516/) by (https://www.pexels.com/@thisisengineering)
 
 ### Acknowledgments 
 * I recieved inspiration for this project from the Code Institute Love Running exercise.
+* I would like to give a huge thanks to my mentor Nishant Kumar for his guidance and resources.
+* I would like to thank the slack community for sharing their problems and solutions as well as Tutor Support.
 
 
 
